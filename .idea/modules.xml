@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ty-order/order.iml" filepath="$PROJECT_DIR$/ty-order/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ty.iml" filepath="$PROJECT_DIR$/.idea/ty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" filepath="$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-common-core/ty-common-core.iml" filepath="$PROJECT_DIR$/ty-common-core/ty-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" filepath="$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" />
+    </modules>
+  </component>
+</project>
