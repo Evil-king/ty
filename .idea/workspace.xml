@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="" />
+    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,6 +105,7 @@
       <workItem from="1585837404712" duration="6193000" />
       <workItem from="1585871688625" duration="278000" />
       <workItem from="1585871993049" duration="485000" />
+      <workItem from="1585879408688" duration="614000" />
     </task>
     <servers />
   </component>
