@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" filepath="$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-core/ty-common-core.iml" filepath="$PROJECT_DIR$/ty-common-core/ty-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" filepath="$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-order/ty-order.iml" filepath="$PROJECT_DIR$/ty-order/ty-order.iml" />
     </modules>
   </component>
 </project>

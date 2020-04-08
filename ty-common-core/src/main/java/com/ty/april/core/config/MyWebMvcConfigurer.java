@@ -18,7 +18,6 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.servlet.http.HttpServletResponse;
@@ -29,14 +28,17 @@ import java.util.List;
 
 
 /**
- * @author: 会跳舞的机器人
+ * @author: wenqing
  * @date: 2017/7/7 09:22
  * @description: Spring MVC 配置
  */
-@Configuration
-@EnableWebMvc
 @Slf4j
+@Configuration
 public class MyWebMvcConfigurer implements WebMvcConfigurer {
+
+    public MyWebMvcConfigurer(){
+        log.info("这是Core包下的MyWebMvcConfigurer的构造方法");
+    }
 
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {

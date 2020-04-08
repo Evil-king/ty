@@ -17,14 +17,13 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api")
 @RefreshScope
-//@Import(MyWebMvcConfigurer.class)
 public class OrderController {
 
     @Autowired
     private IProductService productService;
 
     @PostMapping("/getTest")
-    public ApiResult<?> getTest(@RequestBody @Valid ProductDto productDto){
+    public ApiResult getTest(@RequestBody @Valid ProductDto productDto){
         MyPageInfo<Product> productMyPageInfo = productService.queryById(productDto);
         return ApiResult.success(productMyPageInfo);
     }

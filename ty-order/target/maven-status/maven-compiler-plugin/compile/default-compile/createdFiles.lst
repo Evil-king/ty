@@ -1,2 +1,9 @@
+com/ty/april/order/common/vo/ProductVo$ProductVoBuilder.class
+com/ty/april/order/model/Product.class
+com/ty/april/order/common/dto/ProductDto.class
+com/ty/april/order/common/vo/ProductVo.class
+com/ty/april/order/service/IProductService.class
+com/ty/april/order/service/impl/ProductServiceImpl.class
 com/ty/april/order/OrderApplication.class
-com/ty/april/order/controller/OrderTestController.class
+com/ty/april/order/controller/OrderController.class
+com/ty/april/order/dao/ProductMapper.class

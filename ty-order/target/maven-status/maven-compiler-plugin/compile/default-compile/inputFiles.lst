@@ -1,2 +1,8 @@
-/Users/fox/project/ty/ty-order/src/main/java/com/ty/april/order/OrderApplication.java
-/Users/fox/project/ty/ty-order/src/main/java/com/ty/april/order/controller/OrderTestController.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/model/Product.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/OrderApplication.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/service/impl/ProductServiceImpl.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/common/dto/ProductDto.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/service/IProductService.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/controller/OrderController.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/dao/ProductMapper.java
+/Users/fox/project/myTy/ty-order/src/main/java/com/ty/april/order/common/vo/ProductVo.java
