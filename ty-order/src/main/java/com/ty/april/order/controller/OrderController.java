@@ -1,14 +1,12 @@
 package com.ty.april.order.controller;
 
-import com.ty.april.core.config.MyWebMvcConfigurer;
+import com.ty.april.common.tool.api.ApiResult;
+import com.ty.april.common.tool.page.MyPageInfo;
 import com.ty.april.order.model.Product;
-import com.ty.april.tool.api.ApiResult;
 import com.ty.april.order.common.dto.ProductDto;
 import com.ty.april.order.service.IProductService;
-import com.ty.april.tool.page.MyPageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.context.annotation.Import;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
