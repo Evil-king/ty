@@ -32,9 +32,7 @@ public class ProductServiceImpl extends AbstractService<Product> implements IPro
         Condition condition = new Condition(Product.class);
         Example.Criteria criteria = condition.createCriteria();
         criteria.andEqualTo("id",productDto.getId());
-
         Product products = tblProductMapper.selectByCondition(condition).get(0);
-
 //        MyPageInfo<Product> myPageInfo = pageList(condition, PageParam.buildWithDefaultSort(productDto.getCurrentPage(), productDto.getPageSize()));
         ProductVo productVo = ProductVo.builder().goodsName(products.getGoodsName()).goodsNo(products.getGoodsNo()).id(products.getId()).build();
         return productVo;

@@ -1,7 +1,6 @@
 package com.ty.product.api.controller;
 
 import com.ty.april.common.tool.api.ApiResult;
-import com.ty.april.common.tool.page.MyPageInfo;
 import com.ty.product.api.service.IProductService;
 import com.ty.product.feign.base.ProductVo;
 import com.ty.product.feign.base.ProductDto;

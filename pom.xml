@@ -12,6 +12,7 @@
     <module>ty-common-core</module>
     <module>ty-common-tool</module>
     <module>ty-product</module>
+    <module>ty-user</module>
   </modules>
   <packaging>pom</packaging>
 
