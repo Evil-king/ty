@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients("com.ty.product.feign")
 @EnableDiscoveryClient
 @MapperScan(basePackages = {"com.ty.user.api.dao"})
 @ComponentScan("com.ty")
