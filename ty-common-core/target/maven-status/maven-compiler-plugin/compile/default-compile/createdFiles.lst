@@ -1,8 +1,7 @@
-com\ty\april\core\mybatis\plugin\MyInsertListMapper.class
-com\ty\april\core\mybatis\Service.class
-com\ty\april\core\config\MyWebMvcConfigurer.class
-com\ty\april\core\mybatis\MyMapper.class
-com\ty\april\core\condition\FTPCondition.class
-com\ty\april\core\mybatis\AbstractService.class
-com\ty\april\core\config\MyMediaType.class
-com\ty\april\core\mybatis\plugin\MyInsertListProvider.class
+com/ty/april/core/mybatis/plugin/MyInsertListProvider.class
+com/ty/april/core/config/MyMediaType.class
+com/ty/april/core/mybatis/MyMapper.class
+com/ty/april/core/config/MyWebMvcConfigurer.class
+com/ty/april/core/mybatis/plugin/MyInsertListMapper.class
+com/ty/april/core/mybatis/Service.class
+com/ty/april/core/mybatis/AbstractService.class
