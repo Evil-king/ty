@@ -1,7 +1,7 @@
 package ${basePackage}.controller;
 
-import com.baibei.common.tools.api.ApiResult;
-import com.baibei.common.tools.api.ApiResultGenerator;
+import com.ty.april.common.tools.api.ApiResult;
+import com.ty.april.common.tools.api.ApiResultGenerator;
 import ${basePackage}.model.${modelNameUpperCamel};
 import ${basePackage}.service.I${modelNameUpperCamel}Service;
 import com.github.pagehelper.PageHelper;

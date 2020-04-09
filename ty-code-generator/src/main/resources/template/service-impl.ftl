@@ -3,7 +3,7 @@ package ${basePackage}.service.impl;
 import ${basePackage}.dao.${modelNameUpperCamel}Mapper;
 import ${basePackage}.model.${modelNameUpperCamel};
 import ${basePackage}.service.I${modelNameUpperCamel}Service;
-import com.baibei.shiyi.common.core.mybatis.AbstractService;
+import com.ty.april.core.mybatis.AbstractService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

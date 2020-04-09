@@ -15,7 +15,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 
-
 /**
  * 代码生成器，根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发。
  */
@@ -23,29 +22,29 @@ public class CodeGenerator {
     /**
      * JDBC配置
      */
-    private static final String JDBC_URL = "jdbc:mysql://192.168.12.200:15529/shiyi-product";
-    private static final String JDBC_USERNAME = "admin";
-    private static final String JDBC_PASSWORD = "admin2019";
+    private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/test";
+    private static final String JDBC_USERNAME = "root";
+    private static final String JDBC_PASSWORD = "123456";
     private static final String JDBC_DIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
 
     /**
      * 项目路径相关
      */
-    private static final String PROJECT_PATH = "F:/shiyi-backend/shiyi-product/shiyi-product-service"; // 项目基础路径
-    private static final String TEMPLATE_PATH = "F:/shiyi-backend/shiyi-code-generator/src/main/resources/template"; // 代码模板路径
-    public static final String BASE_PACKAGE = "com.baibei.shiyi.product";//项目基础包名称，根据自己公司的项目修改
+    private static final String PROJECT_PATH = "/Users/fox/project/myTy/ty-product/ty-product-service"; // 项目基础路径
+    private static final String TEMPLATE_PATH = "/Users/fox/project/ty/ty-code-generator/src/main/resources/template"; // 代码模板路径
+    public static final String BASE_PACKAGE = "com.ty.product.api";//项目基础包名称，根据自己公司的项目修改
     public static final String MODEL_PACKAGE = BASE_PACKAGE + ".model";//Model所在包
     public static final String MAPPER_PACKAGE = BASE_PACKAGE + ".dao";//Mapper所在包
     public static final String SERVICE_PACKAGE = BASE_PACKAGE + ".service";//Service所在包
     public static final String SERVICE_IMPL_PACKAGE = SERVICE_PACKAGE + ".impl";//ServiceImpl所在包
     public static final String CONTROLLER_PACKAGE = BASE_PACKAGE + ".controller";//Controller所在包
-    public static final String MAPPER_INTERFACE_REFERENCE = "com.baibei.shiyi.common.core.mybatis.MyMapper";//Mapper插件基础接口的完全限定名
+    public static final String MAPPER_INTERFACE_REFERENCE = "com.ty.april.core.mybatis.MyMapper";//Mapper插件基础接口的完全限定名
 
     private static final String PACKAGE_PATH_SERVICE = packageConvertPath(SERVICE_PACKAGE);//生成的Service存放路径
     private static final String PACKAGE_PATH_SERVICE_IMPL = packageConvertPath(SERVICE_IMPL_PACKAGE);//生成的Service实现存放路径
     private static final String PACKAGE_PATH_CONTROLLER = packageConvertPath(CONTROLLER_PACKAGE);//生成的Controller存放路径
 
-    private static final String AUTHOR = "Longer";//@author
+    private static final String AUTHOR = "wenqing";//@author
     private static final String DATE = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(new Date());//@date
     //java文件路径
     private static final String JAVA_PATH = "/src/main/java";
@@ -58,24 +57,7 @@ public class CodeGenerator {
      * @param args
      */
     public static void main(String[] args) {
-        genCodeByCustomModelName("tbl_pro_brand", "Brand");
-        genCodeByCustomModelName("tbl_pro_category", "Category");
-        genCodeByCustomModelName("tbl_pro_group", "Group");
-        genCodeByCustomModelName("tbl_pro_parameter_key", "ParameterKey");
-        genCodeByCustomModelName("tbl_pro_parameter_value", "ParameterValue");
-        genCodeByCustomModelName("tbl_pro_product", "Product");
-        genCodeByCustomModelName("tbl_pro_product_content", "ProductContent");
-        genCodeByCustomModelName("tbl_pro_product_img", "ProductImg");
-
-        genCodeByCustomModelName("tbl_pro_product_group_ref", "productGroupRef");
-        genCodeByCustomModelName("tbl_pro_product_stock", "ProductStock");
-        genCodeByCustomModelName("tbl_pro_product_shelf", "ProductShelf");
-        genCodeByCustomModelName("tbl_pro_product_shelf_ref", "ProductShelfRef");
-
-        genCodeByCustomModelName("tbl_pro_product_sku", "ProductSku");
-        genCodeByCustomModelName("tbl_pro_property_key", "PropertyKey");
-        genCodeByCustomModelName("tbl_pro_property_value", "PropertyValue");
-        genCodeByCustomModelName("tbl_pro_type", "ProType");
+        genCodeByCustomModelName("tbl_product", "Product");
     }
 
 

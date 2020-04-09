@@ -1,6 +1,6 @@
 package ${basePackage}.service;
 import ${basePackage}.model.${modelNameUpperCamel};
-import com.baibei.shiyi.common.core.mybatis.Service;
+import com.ty.april.core.mybatis.Service;
 
 
 /**

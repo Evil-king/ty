@@ -11,8 +11,7 @@
     <module>ty-code-generator</module>
     <module>ty-common-core</module>
     <module>ty-common-tool</module>
-    <module>ty-order</module>
-    <module>ty-user</module>
+    <module>ty-product</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -38,7 +37,7 @@
     <mysql.version>5.1.47</mysql.version>
     <druid.version>1.1.16</druid.version>
     <fastJson>1.2.61</fastJson>
-    <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
+    <project.version>1.0-SNAPSHOT</project.version>
   </properties>
 
   <!--子模块继承之后，提供作用：锁定版本+子module不用groupId和version-->
@@ -79,11 +78,6 @@
         <version>${druid.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.mybatis.spring.boot</groupId>
-        <artifactId>mybatis-spring-boot-starter</artifactId>
-        <version>${mybatis.spring.boot.version}</version>
-      </dependency>
-      <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit.version}</version>
@@ -99,6 +93,25 @@
         <artifactId>fastjson</artifactId>
         <version>${fastJson}</version>
       </dependency>
+
+      <dependency>
+        <groupId>com.ty</groupId>
+        <artifactId>ty-product-feign</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.ty</groupId>
+        <artifactId>ty-common-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.ty</groupId>
+        <artifactId>ty-common-tool</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
   <build>
