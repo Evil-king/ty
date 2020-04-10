@@ -8,13 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ty-order-feign" />
-        <module name="order" />
-        <module name="ty-common-core" />
-        <module name="ty-order-service" />
-        <module name="ty-code-generator" />
-        <module name="ty-user-service" />
+        <module name="ty-user-server" />
         <module name="ty-user-feign" />
+        <module name="order" />
+        <module name="ty-user-service" />
+        <module name="ty-common-core" />
+        <module name="ty-code-generator" />
+        <module name="ty-product-service" />
         <module name="ty-common-tool" />
+        <module name="ty-product-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,8 +28,12 @@
       <module name="ty-order" target="1.8" />
       <module name="ty-order-feign" target="1.8" />
       <module name="ty-order-service" target="1.8" />
+      <module name="ty-product" target="1.8" />
+      <module name="ty-product-feign" target="1.8" />
+      <module name="ty-product-service" target="1.8" />
       <module name="ty-user" target="1.8" />
       <module name="ty-user-feign" target="1.8" />
+      <module name="ty-user-server" target="1.8" />
       <module name="ty-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

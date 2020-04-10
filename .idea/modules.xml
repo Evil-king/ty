@@ -7,11 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" filepath="$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-core/ty-common-core.iml" filepath="$PROJECT_DIR$/ty-common-core/ty-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" filepath="$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ty-order/ty-order.iml" filepath="$PROJECT_DIR$/ty-order/ty-order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ty-order/ty-order-feign/ty-order-feign.iml" filepath="$PROJECT_DIR$/ty-order/ty-order-feign/ty-order-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ty-order/ty-order-service/ty-order-service.iml" filepath="$PROJECT_DIR$/ty-order/ty-order-service/ty-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-product/ty-product.iml" filepath="$PROJECT_DIR$/ty-product/ty-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-product/ty-product-feign/ty-product-feign.iml" filepath="$PROJECT_DIR$/ty-product/ty-product-feign/ty-product-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-product/ty-product-service/ty-product-service.iml" filepath="$PROJECT_DIR$/ty-product/ty-product-service/ty-product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-user/ty-user.iml" filepath="$PROJECT_DIR$/ty-user/ty-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-user/ty-user-feign/ty-user-feign.iml" filepath="$PROJECT_DIR$/ty-user/ty-user-feign/ty-user-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-user/ty-user-server/ty-user-server.iml" filepath="$PROJECT_DIR$/ty-user/ty-user-server/ty-user-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-user/ty-user-service/ty-user-service.iml" filepath="$PROJECT_DIR$/ty-user/ty-user-service/ty-user-service.iml" />
     </modules>
   </component>

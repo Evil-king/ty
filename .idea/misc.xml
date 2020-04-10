@@ -12,6 +12,13 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ty-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/ty-order-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/ty-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/ty-user-feign/pom.xml" />
         <option value="$PROJECT_DIR$/ty-user/ty-user-service/pom.xml" />
       </set>
     </option>

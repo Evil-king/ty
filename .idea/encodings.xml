@@ -5,8 +5,14 @@
     <file url="file://$PROJECT_DIR$/ty-code-generator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-common-tool/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ty-order/ty-order-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ty-order/ty-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-user/ty-user-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-user/ty-user-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-user/ty-user-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
