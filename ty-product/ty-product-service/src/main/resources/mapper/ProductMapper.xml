@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ty.product.api.dao.ProductMapper">
-  <resultMap id="BaseResultMap" type="com.ty.product.api.model.Product">
+<mapper namespace="com.ty.product.api.domain.productPb.repository.dao.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.ty.product.api.domain.productPb.repository.model.Product">
     <!--
       WARNING - @mbg.generated
     -->
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="goods_no" jdbcType="VARCHAR" property="goodsNo" />
     <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
-    <result column="goods_price" jdbcType="BIGINT" property="goodsPrice" />
-    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
-  </resultMap>
+  <result column="goods_price" jdbcType="BIGINT" property="goodsPrice" />
+  <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+</resultMap>
 </mapper>

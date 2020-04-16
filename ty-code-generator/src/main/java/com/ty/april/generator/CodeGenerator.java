@@ -30,12 +30,13 @@ public class CodeGenerator {
     /**
      * 项目路径相关
      */
-    private static final String PROJECT_PATH = "/Users/fox/project/myTy/ty-product/ty-product-service"; // 项目基础路径
+    private static final String PROJECT_PATH = "/Users/fox/project/myTy/ty-user/ty-user-server"; // 项目基础路径
     private static final String TEMPLATE_PATH = "/Users/fox/project/ty/ty-code-generator/src/main/resources/template"; // 代码模板路径
-    public static final String BASE_PACKAGE = "com.ty.product.api";//项目基础包名称，根据自己公司的项目修改
+    public static final String BASE_PACKAGE = "com.ty.user.api.domain.userpb.repository";//项目基础包名称，根据自己公司的项目修改
+    public static final String SERVICE_PATH="com.ty.user.api.domain.userpb";//domain service包所在路径
     public static final String MODEL_PACKAGE = BASE_PACKAGE + ".model";//Model所在包
     public static final String MAPPER_PACKAGE = BASE_PACKAGE + ".dao";//Mapper所在包
-    public static final String SERVICE_PACKAGE = BASE_PACKAGE + ".service";//Service所在包
+    public static final String SERVICE_PACKAGE = SERVICE_PATH + ".service";//Service所在包
     public static final String SERVICE_IMPL_PACKAGE = SERVICE_PACKAGE + ".impl";//ServiceImpl所在包
     public static final String CONTROLLER_PACKAGE = BASE_PACKAGE + ".controller";//Controller所在包
     public static final String MAPPER_INTERFACE_REFERENCE = "com.ty.april.core.mybatis.MyMapper";//Mapper插件基础接口的完全限定名
@@ -49,7 +50,7 @@ public class CodeGenerator {
     //java文件路径
     private static final String JAVA_PATH = "/src/main/java";
     //资源文件路径
-    private static final String RESOURCES_PATH = "/src/main/resources";
+    private static final String RESOURCES_PATH = "/src/main/resources/";
 
     /**
      * 运行main方法
@@ -57,7 +58,7 @@ public class CodeGenerator {
      * @param args
      */
     public static void main(String[] args) {
-        genCodeByCustomModelName("tbl_product", "Product");
+        genCodeByCustomModelName("tbl_customer", "User");
     }
 
 

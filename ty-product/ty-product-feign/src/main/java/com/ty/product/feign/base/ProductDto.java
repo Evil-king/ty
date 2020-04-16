@@ -6,6 +6,6 @@ import javax.validation.constraints.NotBlank;
 
 @Data
 public class ProductDto{
-    @NotBlank(message = "id不能为空")
-    private String id;
+    private String goodsNo;
+    private String goodsName;
 }

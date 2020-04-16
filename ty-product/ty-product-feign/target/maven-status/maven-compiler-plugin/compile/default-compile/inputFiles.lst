@@ -1,0 +1,4 @@
+/Users/fox/project/myTy/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductVo.java
+/Users/fox/project/myTy/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductDto.java
+/Users/fox/project/myTy/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/client/IProductFeign.java
+/Users/fox/project/myTy/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/client/ProductFallback.java

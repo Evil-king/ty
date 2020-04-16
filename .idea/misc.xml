@@ -19,9 +19,12 @@
         <option value="$PROJECT_DIR$/ty-user-feign/pom.xml" />
         <option value="$PROJECT_DIR$/ty-user/pom.xml" />
         <option value="$PROJECT_DIR$/ty-user/ty-user-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/ty-user-server/pom.xml" />
         <option value="$PROJECT_DIR$/ty-user/ty-user-service/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_241" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8.0_241" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$" />
+  </component>
 </project>

@@ -1,0 +1,6 @@
+com/ty/product/api/service/IProductService.class
+com/ty/product/api/model/Product.class
+com/ty/product/api/ProductApplication.class
+com/ty/product/api/service/impl/ProductServiceImpl.class
+com/ty/product/api/controller/ProductController.class
+com/ty/product/api/dao/ProductMapper.class
