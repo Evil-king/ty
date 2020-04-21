@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ty-common-redis</artifactId>
+    <artifactId>ty-component-redis</artifactId>
 
     <dependencies>
         <dependency>

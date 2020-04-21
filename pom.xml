@@ -13,7 +13,7 @@
     <module>ty-common-tool</module>
     <module>ty-product</module>
     <module>ty-gateway</module>
-      <module>ty-common-redis</module>
+    <module>ty-component-redis</module>
   </modules>
   <packaging>pom</packaging>
 
