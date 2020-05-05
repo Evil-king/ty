@@ -12,9 +12,23 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ty-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/ty-order-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-order/ty-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/ty-user-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/ty-user/ty-user-server/pom.xml" />
         <option value="$PROJECT_DIR$/ty-user/ty-user-service/pom.xml" />
       </set>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8.0_241" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$" />
+  </component>
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
 </project>

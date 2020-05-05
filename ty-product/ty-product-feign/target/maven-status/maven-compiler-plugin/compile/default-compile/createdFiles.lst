@@ -1,0 +1,5 @@
+com/ty/product/feign/client/ProductFallback.class
+com/ty/product/feign/base/ProductVo$ProductVoBuilder.class
+com/ty/product/feign/base/ProductDto.class
+com/ty/product/feign/client/IProductFeign.class
+com/ty/product/feign/base/ProductVo.class

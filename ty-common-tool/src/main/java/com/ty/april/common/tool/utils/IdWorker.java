@@ -243,4 +243,10 @@ class SystemClock {
 		public static final SystemClock INSTANCE = new SystemClock(1);
 	}
 
+	public static void main(String[] args) {
+		long id = IdWorker.getId();
+		System.out.println(id);
+
+	}
+
 }

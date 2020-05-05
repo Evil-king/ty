@@ -12,7 +12,8 @@
     <module>ty-common-core</module>
     <module>ty-common-tool</module>
     <module>ty-product</module>
-    <module>ty-user</module>
+    <module>ty-gateway</module>
+    <module>ty-component-redis</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -110,6 +111,12 @@
       <dependency>
         <groupId>com.ty</groupId>
         <artifactId>ty-common-tool</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.ty</groupId>
+        <artifactId>ty-user-feign</artifactId>
         <version>${project.version}</version>
       </dependency>
 

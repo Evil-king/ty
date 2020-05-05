@@ -1,0 +1,29 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848/
+      config:
+        server-addr: http://localhost:8848
+    gateway:
+      routes:
+        - id: user-api # 路由的编号
+          uri: lb://user # 路由到的目标地址
+          predicates:
+            - Path=/user/** # 断言，作为路由的匹配条件，对应 RouteDefinition 数组
+            - Weight=user,90 #增加权重 90%
+
+        - id: product-api # 路由的编号
+          uri: lb://product
+          predicates:
+            - Path=/product/** # 断言，作为路由的匹配条件，对应 RouteDefinition 数组
+            - Weight=user,10 #增加权重 10%
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行动态路由
+          url-expression: "'lb://' + serviceId" # 路由的目标地址的表达式，默认为 "'lb://' + serviceId"

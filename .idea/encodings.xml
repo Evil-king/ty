@@ -4,7 +4,10 @@
     <file url="file://$PROJECT_DIR$/ty-code-generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-code-generator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-common-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-common-tool/src/main/java" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources" charset="UTF-8" />
@@ -12,6 +15,14 @@
     <file url="file://$PROJECT_DIR$/ty-user/ty-user-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-user/ty-user-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/ty-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources" charset="UTF-8" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

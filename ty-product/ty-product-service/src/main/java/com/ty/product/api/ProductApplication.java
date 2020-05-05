@@ -11,7 +11,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-@MapperScan(basePackages = {"com.ty.product.api.dao"})
+@MapperScan(basePackages = {"com.ty.product.api.domain.productPb.repository.dao"})
 @ComponentScan("com.ty")
 public class ProductApplication {
 
