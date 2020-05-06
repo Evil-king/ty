@@ -15,7 +15,7 @@
         <module name="ty-order-service" />
         <module name="ty-code-generator" />
         <module name="ty-gateway" />
-        <module name="ty-common-redis" />
+        <module name="ty-component-redis" />
         <module name="ty-common-tool" />
         <module name="ty-product-feign" />
       </profile>
@@ -25,8 +25,8 @@
       <module name="ty" target="1.8" />
       <module name="ty-code-generator" target="1.8" />
       <module name="ty-common-core" target="1.8" />
-      <module name="ty-common-redis" target="1.8" />
       <module name="ty-common-tool" target="1.8" />
+      <module name="ty-component-redis" target="1.8" />
       <module name="ty-gateway" target="1.8" />
       <module name="ty-order" target="1.8" />
       <module name="ty-order-feign" target="1.8" />

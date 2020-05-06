@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ty-common-core" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ty-gateway/src/main/java/com/ty/gateway/api/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ty-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/application/service/ProductApplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-code-generator/src/main/java/com/ty/april/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-code-generator/src/main/java/com/ty/april/generator/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-common-tool/src/main/java/com/ty/april/common/tool/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-common-tool/src/main/java/com/ty/april/common/tool/utils/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-feign/target/classes/META-INF/ty-product-feign.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/interfaces/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/repository/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/repository/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-feign/src/main/java/com/ty/user/feign/sda" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/java/com/ty/user/api/UserApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/java/com/ty/user/api/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/target/classes/bootstrap.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,12 +96,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ty-gateway/src/main/resources" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_241" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ty-common-redis/src/main/java/com/ty/common/redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -113,11 +122,11 @@
       <recent name="com.ty.April.generator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ty-common-redis/src/main/java/com/ty/common/redis" />
       <recent name="$PROJECT_DIR$/ty-gateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty,product/feign" />
-      <recent name="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/april/product/service" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -238,7 +247,8 @@
       <workItem from="1586784359880" duration="5175000" />
       <workItem from="1586793620373" duration="19135000" />
       <workItem from="1586939789523" duration="804000" />
-      <workItem from="1586943951174" duration="2114000" />
+      <workItem from="1586943951174" duration="2565000" />
+      <workItem from="1587459813843" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586341254293</created>
@@ -296,11 +306,30 @@
       <option name="project" value="LOCAL" />
       <updated>1586497930877</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init">
+      <created>1587460032749</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460032749</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -442,21 +471,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585843326001" />
-    <state x="880" y="437" key="Vcs.Push.Dialog.v2" timestamp="1586497937124">
+    <state x="880" y="437" key="Vcs.Push.Dialog.v2" timestamp="1587460033919">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
+    <state x="880" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349/-1792.284.1792.1097@0.23.2560.1349" timestamp="1587460033919" />
     <state x="880" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1586497937124" />
     <state x="1085" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586399711918">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="1085" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1349@0.23.2560.1349" timestamp="1586399711918" />
-    <state x="-1480" y="498" key="new project wizard" timestamp="1586784490600">
-      <screen x="-1792" y="272" width="1792" height="1097" />
+    <state x="444" y="301" key="new project wizard" timestamp="1587018556880">
+      <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585840389843" />
     <state x="-1480" y="498" key="new project wizard/0.23.2560.1349/-1792.272.1792.1097@-1792.272.1792.1097" timestamp="1586784490600" />
     <state x="445" y="301" key="new project wizard/0.23.2560.1349/-1792.272.1792.1097@0.23.2560.1349" timestamp="1586764037794" />
-    <state x="445" y="301" key="new project wizard/0.23.2560.1349@0.23.2560.1349" timestamp="1586427614310" />
+    <state x="444" y="301" key="new project wizard/0.23.2560.1349@0.23.2560.1349" timestamp="1587018556880" />
     <state x="945" y="329" width="670" height="675" key="run.anything.popup" timestamp="1586419942255">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>

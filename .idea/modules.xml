@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ty.iml" filepath="$PROJECT_DIR$/.idea/ty.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" filepath="$PROJECT_DIR$/ty-code-generator/ty-code-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-core/ty-common-core.iml" filepath="$PROJECT_DIR$/ty-common-core/ty-common-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ty-common-redis/ty-common-redis.iml" filepath="$PROJECT_DIR$/ty-common-redis/ty-common-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" filepath="$PROJECT_DIR$/ty-common-tool/ty-common-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ty-component-redis/ty-common-redis.iml" filepath="$PROJECT_DIR$/ty-component-redis/ty-common-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-gateway/ty-gateway.iml" filepath="$PROJECT_DIR$/ty-gateway/ty-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-order/ty-order-service/ty-order-service.iml" filepath="$PROJECT_DIR$/ty-order/ty-order-service/ty-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ty-product/ty-product.iml" filepath="$PROJECT_DIR$/ty-product/ty-product.iml" />
