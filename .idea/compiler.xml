@@ -7,6 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+        <module name="ty-product-service" />
+        <module name="order" />
+        <module name="ty-common-core" />
+        <module name="ty-code-generator" />
+        <module name="ty-user-feign" />
+        <module name="ty-user-server" />
+=======
         <module name="ty-order-feign" />
         <module name="ty-common-core" />
         <module name="ty-product-service" />
@@ -15,7 +23,12 @@
         <module name="ty-order-service" />
         <module name="ty-code-generator" />
         <module name="ty-gateway" />
+<<<<<<< HEAD
         <module name="ty-component-redis" />
+=======
+        <module name="ty-common-redis" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
         <module name="ty-common-tool" />
         <module name="ty-product-feign" />
       </profile>

@@ -40,7 +40,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="init" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="init" />
+=======
+    <list default="true" id="e1e68365-19f4-429a-8f62-96bc275ac22f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ty-gateway/src/main/java/com/ty/gateway/api/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ty-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/application/service/ProductApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-code-generator/src/main/java/com/ty/april/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-code-generator/src/main/java/com/ty/april/generator/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-common-tool/src/main/java/com/ty/april/common/tool/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-common-tool/src/main/java/com/ty/april/common/tool/utils/IdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty/product/feign/base/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-feign/target/classes/META-INF/ty-product-feign.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/interfaces/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/repository/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/repository/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/java/com/ty/product/api/domain/productPb/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-product/ty-product-service/target/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ty-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-feign/src/main/java/com/ty/user/feign/sda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/java/com/ty/user/api/UserApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/java/com/ty/user/api/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ty-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ty-user/ty-user-server/target/classes/bootstrap.properties" beforeDir="false" />
+    </list>
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,8 +140,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+<<<<<<< HEAD
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_241" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ty-common-redis/src/main/java/com/ty/common/redis" />
+=======
+<<<<<<< HEAD
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ty-gongsi" />
+=======
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ty-gateway/src/main/resources" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -129,6 +178,9 @@
       <recent name="$PROJECT_DIR$/ty-product/ty-product-feign/src/main/java/com/ty,product/feign" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Spring Boot.UserApp">
+=======
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
@@ -161,6 +213,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="ty" />
       <working_directory value="$PROJECT_DIR$" />
@@ -171,6 +224,19 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ty-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.product.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ty.product.api.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+=======
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ty-gateway" />
       <extension name="coverage">
@@ -180,10 +246,21 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ty.gateway.api.GatewayApplication" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="UserApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ty-user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.user.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+=======
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ty-product-service" />
       <extension name="coverage">
@@ -201,12 +278,22 @@
     </configuration>
     <configuration name="UserApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ty-user-server" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ty.user.api.UserApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.UserApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApp" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+=======
       <item itemvalue="Application.CodeGenerator" />
       <item itemvalue="Application.SystemClock" />
       <item itemvalue="Spring Boot.UserApp" />
@@ -219,6 +306,7 @@
         <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Application.SystemClock" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +326,10 @@
       <workItem from="1585873027800" duration="771000" />
       <workItem from="1585879408688" duration="614000" />
       <workItem from="1586340367944" duration="4326000" />
+<<<<<<< HEAD
+      <workItem from="1586859961538" duration="1659000" />
+      <workItem from="1587038336042" duration="133000" />
+=======
       <workItem from="1586425340265" duration="3940000" />
       <workItem from="1586485474769" duration="2322000" />
       <workItem from="1586489096991" duration="5642000" />
@@ -247,8 +339,13 @@
       <workItem from="1586784359880" duration="5175000" />
       <workItem from="1586793620373" duration="19135000" />
       <workItem from="1586939789523" duration="804000" />
+<<<<<<< HEAD
       <workItem from="1586943951174" duration="2565000" />
       <workItem from="1587459813843" duration="245000" />
+=======
+      <workItem from="1586943951174" duration="2114000" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586341254293</created>
@@ -279,6 +376,15 @@
       <updated>1586341545699</updated>
     </task>
     <task id="LOCAL-00005" summary="init">
+<<<<<<< HEAD
+      <created>1586449096657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586449096657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+=======
       <created>1586424633372</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
@@ -306,6 +412,7 @@
       <option name="project" value="LOCAL" />
       <updated>1586497930877</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00009" summary="init">
       <created>1587460032749</created>
       <option name="number" value="00009" />
@@ -314,6 +421,10 @@
       <updated>1587460032749</updated>
     </task>
     <option name="localTasksCounter" value="10" />
+=======
+    <option name="localTasksCounter" value="9" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +452,12 @@
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1585872265613" />
     <state x="736" y="254" key="#Notifications/0.23.2560.1349@0.23.2560.1349" timestamp="1586340633593" />
+<<<<<<< HEAD
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586444736818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586444736818" />
+=======
     <state x="-1176" y="548" key="#Project_Structure" timestamp="1586785252479">
       <screen x="-1792" y="272" width="1792" height="1097" />
     </state>
@@ -363,6 +480,7 @@
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="1017" y="488" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1349@0.23.2560.1349" timestamp="1586420800602" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
     <state x="1075" y="554" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586340383590">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
@@ -384,6 +502,63 @@
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585841229151" />
+<<<<<<< HEAD
+    <state x="0" y="0" width="2560" height="1400" key="CommitChangelistDialog2" timestamp="1586860097360">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586449092500" />
+    <state x="0" y="0" width="2560" height="1400" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586860097360" />
+    <state x="0" y="23" width="2560" height="1349" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1586341545596" />
+    <state x="1018" y="558" key="FileChooserDialogImpl" timestamp="1587038472782">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1018" y="558" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587038472782" />
+    <state width="1877" height="629" key="GridCell.Tab.0.bottom" timestamp="1586449185877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185877" />
+    <state width="2518" height="735" key="GridCell.Tab.0.bottom/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265373" />
+    <state width="1877" height="629" key="GridCell.Tab.0.center" timestamp="1586449185877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185877" />
+    <state width="2518" height="735" key="GridCell.Tab.0.center/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265372" />
+    <state width="1877" height="629" key="GridCell.Tab.0.left" timestamp="1586449185877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185877" />
+    <state width="2518" height="735" key="GridCell.Tab.0.left/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265372" />
+    <state width="1877" height="629" key="GridCell.Tab.0.right" timestamp="1586449185877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185877" />
+    <state width="2518" height="735" key="GridCell.Tab.0.right/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265373" />
+    <state width="1877" height="629" key="GridCell.Tab.1.bottom" timestamp="1586449185878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185878" />
+    <state width="2518" height="735" key="GridCell.Tab.1.bottom/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265374" />
+    <state width="1877" height="629" key="GridCell.Tab.1.center" timestamp="1586449185878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185878" />
+    <state width="2518" height="735" key="GridCell.Tab.1.center/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265374" />
+    <state width="1877" height="629" key="GridCell.Tab.1.left" timestamp="1586449185878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185878" />
+    <state width="2518" height="735" key="GridCell.Tab.1.left/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265373" />
+    <state width="1877" height="629" key="GridCell.Tab.1.right" timestamp="1586449185878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="629" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586449185878" />
+    <state width="2518" height="735" key="GridCell.Tab.1.right/0.23.2560.1349@0.23.2560.1349" timestamp="1586345265374" />
+    <state x="1059" y="422" key="RollbackChangesDialog" timestamp="1586860101155">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1059" y="422" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586860101155" />
+    <state x="615" y="233" key="SettingsEditor" timestamp="1586343883153">
+=======
     <state x="920" y="368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1349@0.23.2560.1349" timestamp="1586847013429" />
     <state x="1098" y="346" key="#xdebugger.evaluate" timestamp="1586919832975">
       <screen x="0" y="23" width="2560" height="1349" />
@@ -462,6 +637,7 @@
     </state>
     <state x="930" y="398" key="NewModule_or_Project.wizard/0.23.2560.1349@0.23.2560.1349" timestamp="1586486694307" />
     <state x="613" y="233" key="SettingsEditor" timestamp="1586944061916">
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585871932450" />
@@ -471,7 +647,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585843326001" />
+<<<<<<< HEAD
     <state x="880" y="437" key="Vcs.Push.Dialog.v2" timestamp="1587460033919">
+=======
+<<<<<<< HEAD
+    <state x="987" y="391" key="VCS.ChangeListViewerDialog" timestamp="1587038405817">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="391" key="VCS.ChangeListViewerDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587038405817" />
+    <state x="660" y="319" key="Vcs.Push.Dialog.v2" timestamp="1586449099651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="319" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586449099651" />
+    <state x="880" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1586341546960" />
+    <state x="963" y="596" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587038382140">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="963" y="596" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587038382140" />
+    <state x="334" y="214" key="new project wizard" timestamp="1585840389843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585840389843" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586446263441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586446263441" />
+=======
+    <state x="880" y="437" key="Vcs.Push.Dialog.v2" timestamp="1586497937124">
+>>>>>>> 03d8e7b8e508712add2367af40bf2cb0af46c80d
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="880" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349/-1792.284.1792.1097@0.23.2560.1349" timestamp="1587460033919" />
@@ -496,5 +699,6 @@
     </state>
     <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1349/-1792.272.1792.1097@0.23.2560.1349" timestamp="1586767092419" />
     <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1349@0.23.2560.1349" timestamp="1586422328765" />
+>>>>>>> ea624557dbdcf2040e4996eee38d7a834dd8ad6a
   </component>
 </project>
